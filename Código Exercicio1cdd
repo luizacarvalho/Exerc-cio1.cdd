@@ -1,0 +1,14 @@
+combustivel = input("Diga o tipo combustível utilizado, sendo G para gasolina e E para etanol: ")
+quant = float(input("Quantos litros você colocou ? "))
+ #preco fixos
+gasolina = 5.80
+etanol = 4.90
+
+if combustivel == 'G':
+    calculo = quant * gasolina
+    print(f"O valor da gasolina é de 5.80, você comprou {quant}L e vai pagar o total de {calculo}:")
+
+else:
+    if combustivel == 'E':
+     calculo = quant * etanol
+     print(f"O valor do etanol é de 4.90, você comprou {quant}L e vai pagar o total de {calculo}:")
